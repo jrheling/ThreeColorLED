@@ -1,0 +1,36 @@
+
+#######################################
+# Syntax Coloring Map For ThreeColorLED
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ThreeColorLED	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setColor	KEYWORD2
+setBlinkColor	KEYWORD2
+setBlinkFreq	KEYWORD2
+setBlink	KEYWORD2
+set	KEYWORD2
+saveState	KEYWORD2
+restoreState	KEYWORD2
+update	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TCL_CLR_NONE	LITERAL1
+TCL_CLR_GREEN	LITERAL1
+TCL_CLR_RED	LITERAL1
+TCL_CLR_YELLOW	LITERAL1
+TCL_BLINK_NONE	LITERAL1
+TCL_BLINK_NORM	LITERAL1 
+TCL_BLINK_FAST	LITERAL1
+TCL_BLINK_SLOW	LITERAL1
