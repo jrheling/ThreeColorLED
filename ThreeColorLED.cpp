@@ -65,6 +65,7 @@ void ThreeColorLED::restoreState() {
 	_color = _color_saved;
 	_blinkColor = _blinkColor_saved;
 	_blinkFreq = _blinkFreq_saved;	
+	set(_color, _blinkColor, _blinkFreq);
 }
 
 void ThreeColorLED::update() {
